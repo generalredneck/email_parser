@@ -1,0 +1,20 @@
+{
+    "name": "drupal/email_parser",
+    "description": "Email Parser",
+    "keywords": ["email", "parser"],
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "authors": [{
+        "name": "Steven Linn",
+        "homepage": "https://github.com/stevenlafl"
+    }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaibhavpandeyvpz/phemail.git"
+        }
+    ],
+    "require": {
+        "vaibhavpandeyvpz/phemail": "1.0"
+    }
+}

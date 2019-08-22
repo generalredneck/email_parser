@@ -1,0 +1,11 @@
+email_parser.extract:
+  path: '/email_parser/extract'
+  defaults:
+    _form: '\Drupal\email_parser\Form\ParserTestForm'
+    _title: 'Parser Test Form'
+  requirements:
+    _access: 'TRUE'
+services:
+  plugin.manager.airline_email:
+    class: Drupal\email_parser\Airline\AirlineManager
+    parent: default_plugin_manager

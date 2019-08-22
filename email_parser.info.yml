@@ -1,0 +1,5 @@
+name: 'Email Parser'
+type: module
+description: 'Provides an API for parsing emails'
+core: 8.x
+package: '4 Kitchens'

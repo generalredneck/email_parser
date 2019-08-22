@@ -1,0 +1,8 @@
+services:
+  email_parser.email_parser:
+    class: Drupal\email_parser\EmailParser
+    arguments: []
+
+  plugin.manager.email_parser.airline:
+    class: Drupal\email_parser\Plugin\email_parser\Airline\AirlineManager
+    parent: default_plugin_manager
